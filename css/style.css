@@ -23,6 +23,11 @@
     color: rgba(0,0,0,0.87);
 }
 
+.barra-navegacao > a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0.87);
+}
+
 .apps {
     vertical-align: middle;
     opacity: .55;
