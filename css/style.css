@@ -1,0 +1,162 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: arial, sans-serif;
+}
+
+.barra-navegacao {
+    position: sticky;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.barra-navegacao > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    line-height: 60px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.apps {
+    vertical-align: middle;
+    opacity: .55;
+}
+
+.avatar {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.logo {
+    padding-top: 138px;
+}
+
+.pesquisa {
+    height: 46px;
+    width: 572px;
+    margin: 0 auto;
+    margin-top: 23px;
+    padding: 5px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.pesquisa:hover, .pesquisa:focus-within {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.pesquisa input {
+    width: 446px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: rgba(0, 0, 0, 0.87);
+    outline: none;
+    cursor: text;
+    font-size: 16px;
+}
+
+.pesquisa img {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#mic {
+    width: 24px;
+    height: 24px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+.botoes > button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0 16px;
+}
+
+.botoes > button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+.botoes > button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+}
+
+footer > div {
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.rodape-pais {
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    padding-left: 30px;
+}
+
+.rodape-link {
+    font-size: 13px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.rodape-left .rodape-link {
+    margin-right: 23px;
+}
+
+.rodape-right .rodape-link {
+    margin-left: 23px;
+}
+
+.rodape-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #5f6368;
+}
+
+.rodape-left, .rodape-right {
+    width: 50%;
+    float: left;
+}
+
+.rodape-left {
+    padding-left: 30px;
+}
+
+.rodape-right {
+    text-align: right;
+    padding-right: 30px; 
+}
