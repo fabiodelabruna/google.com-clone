@@ -8,22 +8,22 @@
 .barra-navegacao {
     position: sticky;
     width: 100%;
-    height: 60px;
+    height: 62px;
     text-align: right;
-    padding: 0 20px;
+    padding: 0 30px;
     font-size: 13px;
 }
 
 .barra-navegacao > a {
     display: inline-block;
     vertical-align: top;
-    margin-left: 15px;
-    line-height: 60px;
+    margin-left: 13px;
+    line-height: 62px;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
 }
 
-.barra-navegacao > a:hover {
+.barra-navegacao a:hover {
     text-decoration: underline;
     text-decoration-color: rgba(0,0,0,0.87);
 }
@@ -34,9 +34,17 @@
 }
 
 .avatar {
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     vertical-align: middle;
 }
+
+/* a .apps:parent {
+    margin-left: 1px;
+    vertical-align: middle;
+    opacity: .55;
+} */
 
 .conteudo {
     text-align: center;
